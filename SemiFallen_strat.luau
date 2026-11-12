@@ -10,11 +10,12 @@ local TDS = loadstring(game:HttpGet("https://getaether.cc/loader.lua"))()
 
 TDS:Loadout("Crook Boss", "Gatling Gun", "DJ Booth", "Engineer", "Accelerator")
 TDS:Mode("Fallen")
-TDS:GameInfo("Simplicity", {})
+TDS:GameInfo("Simplicity", {Limitation = true, Committed = true, ExplodingEnemies = true, Quarantine = true})
 
 TDS:Place("Engineer", -6.05681848526001, 0.9999879002571106, -2.813408851623535)
 TDS:Ready()
 
+TDS:VoteSkip(1, 38)
 -- [ Wave 2 ] --
 TDS:Place("Engineer", -3.0169758796691895, 0.9999915957450867, -2.8443408012390137)
 TDS:Place("Engineer", -9.013227462768555, 1.0000007152557373, -3.7619824409484863)
